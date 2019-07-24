@@ -1,0 +1,26 @@
+{
+    "language": "zh-hans",
+    "gitbook": "3.2.3",
+    "plugins": [
+        "-search",
+        "search-pro",
+        "-sharing",
+        "advanced-emoji",
+        "anchor-navigation-ex",
+        "expandable-chapters-small",
+        "include-codeblock",
+        "ace",
+        "tbfed-pagefooter"
+    ],
+    "pluginsConfig": {
+      "include-codeblock": {
+            "template": "ace",
+            "theme": "monokai"
+      },
+      "tbfed-pagefooter": {
+          "copyright":"Copyright &copy Wong 2019",
+          "modify_label": "该文件修订时间：",
+          "modify_format": "YYYY-MM-DD HH:mm:ss"
+      }
+  }
+}
