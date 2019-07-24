@@ -19,7 +19,7 @@
       },
       "tbfed-pagefooter": {
           "copyright":"Copyright &copy Wong 2019",
-          "modify_label": "该文件修订时间：",
+          "modify_label": "Last UpdateTime:",
           "modify_format": "YYYY-MM-DD HH:mm:ss"
       }
   }
