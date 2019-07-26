@@ -19,7 +19,7 @@ pipeline {
           steps {
              echo "发布项目"
              sh "tar -cvzf ROOT-saas-plus-gitbook.tar.gz _book/ --exclude=_book/.* --exclude=_book/Jenkinsfile"
-             sh "scp ROOT-saas-plus-gitbook.tar.gz worker1:/root/"
+             sh "scp -o StrictHostKeyChecking=no ROOT-saas-plus-gitbook.tar.gz worker1:/root/"
           }
         }
     }
