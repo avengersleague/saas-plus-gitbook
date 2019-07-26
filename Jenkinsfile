@@ -18,7 +18,8 @@ pipeline {
         stage('发布项目') {
           steps {
              echo "发布项目"
-             sh "ls"
+             sh "tar -cvzf ROOT-saas-plus-gitbook.tar.gz _book/ --exclude=_book/.* --exclude=_book/Jenkinsfile"
+             sh "scp ROOT-saas-plus-gitbook.tar.gz worker1:/root/"
           }
         }
     }
