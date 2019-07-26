@@ -11,7 +11,7 @@ pipeline {
         stage('构建/打包项目') {
             steps {
                echo "构建/打包项目"
-               sh "gitbook install && gitbook build"
+               sh "source /etc/profile && gitbook install && gitbook build"
             }
         }
 
